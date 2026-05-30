@@ -4,7 +4,7 @@ dataSources:
     driverClassName: com.mysql.cj.jdbc.Driver
     jdbcUrl: jdbc:mysql://127.0.0.1:3306/hmdp_0?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai&autoReconnect=true
     username: root
-    password: root
+    password: WK0524@wk#123
     hikari:
       # 连接池配置优化
       minimum-idle: 30                    # 最小空闲连接数(提升至30)
@@ -19,7 +19,7 @@ dataSources:
     driverClassName: com.mysql.cj.jdbc.Driver
     jdbcUrl: jdbc:mysql://127.0.0.1:3306/hmdp_1?useUnicode=true&characterEncoding=UTF-8&rewriteBatchedStatements=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai&autoReconnect=true
     username: root
-    password: root
+    password: WK0524@wk#123
     hikari:
       # 连接池配置优化
       minimum-idle: 30                    # 最小空闲连接数(提升至30)

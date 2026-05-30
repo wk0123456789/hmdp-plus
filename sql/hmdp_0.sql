@@ -530,7 +530,7 @@ CREATE TABLE `tb_voucher_order_0` (
                                       `voucher_id` bigint unsigned NOT NULL COMMENT '购买的代金券id',
                                       `pay_type` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '支付方式 1：余额支付；2：支付宝；3：微信',
                                       `status` tinyint unsigned NOT NULL DEFAULT '1' COMMENT '订单状态，1：正常；2：已取消；',
-                                      `reconciliation_status` int NOT NULL DEFAULT '1' COMMENT '对账状态：1待处理；2异常；3不一致；4一致',
+                                      `reconciliation_status` tinyint NOT NULL DEFAULT '1' COMMENT '对账状态：1待处理；2异常；3不一致；4一致',
                                       `create_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '下单时间',
                                       `pay_time` timestamp NULL DEFAULT NULL COMMENT '支付时间',
                                       `use_time` timestamp NULL DEFAULT NULL COMMENT '核销时间',
